@@ -1,0 +1,118 @@
+Validação em Play Mode, Unity 2022.3.62f3
+PASS Menu em Play Mode
+PASS Jogar inicializa vida, pontuação e onda
+PASS Câmera ajustada aos bounds reais 18x10
+PASS Colisão redundante do Tilemap desativada
+PASS PlayerBarrier bloqueia somente Player
+PASS Player parado executa Idle
+PASS Player em movimento executa Run
+PASS Quadros do Player realmente mudam
+PASS Tiro aciona Attack
+PASS Attack retorna automaticamente a Idle
+PASS Attack retorna automaticamente a Run durante movimento
+PASS Direção do Player 0
+PASS Direção do Player 1
+PASS Direção do Player 2
+PASS Direção do Player 3
+PASS Direção do Player 4
+PASS Direção do Player 5
+PASS Direção do Player 6
+PASS Direção do Player 7
+PASS Colisão precisa, lado/entrada 0
+PASS Colisão precisa, lado/entrada 1
+PASS Colisão precisa, lado/entrada 2
+PASS Colisão precisa, lado/entrada 3
+PASS Colisão precisa, lado/entrada 4
+PASS Canto (-1.00, -1.00) não permite atravessar paredes
+PASS Canto (-1.00, 1.00) não permite atravessar paredes
+PASS Canto (1.00, -1.00) não permite atravessar paredes
+PASS Canto (1.00, 1.00) não permite atravessar paredes
+PASS Tipo 1 nasce invisível abaixo da câmera
+PASS Locomoção animada do tipo 1 velocity=(0.44, 1.95) animatorSpeed=2 state=Entering clip=Skeleton_Walk
+PASS Quadros do inimigo mudam, tipo 1
+PASS Tipo 1 atravessa porta e muda Entering para Chasing
+PASS Tipo 1 persegue jogador após waypoint
+PASS Idle do inimigo parado, tipo 1
+PASS Contato causa 20, tipo 1
+PASS Attack por contato, tipo 1
+PASS Attack do inimigo retorna a Run, tipo 1
+PASS Tipo 2 nasce invisível abaixo da câmera
+PASS Locomoção animada do tipo 2 velocity=(0.00, 2.00) animatorSpeed=2 state=Entering clip=Spider_Walk
+PASS Quadros do inimigo mudam, tipo 2
+PASS Tipo 2 atravessa porta e muda Entering para Chasing
+PASS Tipo 2 persegue jogador após waypoint
+PASS Idle do inimigo parado, tipo 2
+PASS Contato causa 20, tipo 2
+PASS Attack por contato, tipo 2
+PASS Attack do inimigo retorna a Run, tipo 2
+PASS Tipo 3 nasce invisível abaixo da câmera
+PASS Locomoção animada do tipo 3 velocity=(-0.44, 1.95) animatorSpeed=2 state=Entering clip=Worm_Idle
+PASS Quadros do inimigo mudam, tipo 3
+PASS Tipo 3 atravessa porta e muda Entering para Chasing
+PASS Tipo 3 persegue jogador após waypoint
+PASS Idle do inimigo parado, tipo 3
+PASS Contato causa 20, tipo 3
+PASS Attack por contato, tipo 3
+PASS Attack do inimigo retorna a Run, tipo 3
+PASS Spawn totalmente fora da câmera, onda 1
+PASS Prefab exclusivo da onda 1
+PASS Spawn totalmente fora da câmera, onda 1
+PASS Prefab exclusivo da onda 1
+PASS Spawn totalmente fora da câmera, onda 1
+PASS Prefab exclusivo da onda 1
+PASS Spawn totalmente fora da câmera, onda 1
+PASS Prefab exclusivo da onda 1
+PASS Spawn totalmente fora da câmera, onda 1
+PASS Prefab exclusivo da onda 1
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 2
+PASS Prefab exclusivo da onda 2
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Spawn totalmente fora da câmera, onda 3
+PASS Prefab exclusivo da onda 3
+PASS Ciclo completo Menu → Gameplay → ondas 1/2/3 → Vitória com 2500
+PASS Contagem real das ondas: 5 Skeleton, 8 Spider, 12 Big Worm
+PASS Todos os 25 inimigos passaram pelo waypoint antes da perseguição
+PASS Animações de morte executadas nos três tipos
+PASS Pontuação final da vitória correta
+PASS Reinício após vitória restaura vida, score e onda
+PASS Dano de contato e Game Over
+PASS Reinício após Game Over
+PASS Sem Errors ou Warnings durante o ciclo de testes
+CONSOLE FINAL errors/warnings/logs: 0,0,0
+CONCLUÍDO
+Cena Gameplay aberta. Sem scripts ou sprites ausentes. Console errors/warnings/logs: 0,0,0
